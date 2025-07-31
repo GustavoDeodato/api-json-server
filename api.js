@@ -1,5 +1,8 @@
+
+const data = 
 {
-    "Fotos:"[
+
+            "Fotos":[
     {
     "id": 1,
     "imagem": "https://drive.google.com/file/d/1pc1mTKuIXAWU3BvF0OTKSYwsjcl7ZTx-/view?usp=sharing",
@@ -31,3 +34,7 @@
     "data": "01/01/24"
 }
 ]}
+
+module.exports = {
+    data
+}
