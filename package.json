@@ -1,11 +1,12 @@
 {
   "name": "api-json-server",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "start": "json-server --watch db.json --port $PORT --host 0.0.0.0"
   },
-  "dependencies": {
-    "json-server": "^0.17.4"
+  "devDependencies": {
+    "json-server": "^0.17.3"
   }
 }
